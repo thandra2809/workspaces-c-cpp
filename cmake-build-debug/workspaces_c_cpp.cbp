@@ -37,8 +37,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/venkat-data/work-spaces/workspaces-c-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="workspaces_c_cpp">
-				<Option output="/Volumes/venkat-data/work-spaces/workspaces-c-cpp/cmake-build-debug/workspaces_c_cpp" prefix_auto="0" extension_auto="0"/>
+			<Target title="quiz-2">
+				<Option output="/Volumes/venkat-data/work-spaces/workspaces-c-cpp/cmake-build-debug/quiz-2" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Volumes/venkat-data/work-spaces/workspaces-c-cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -51,14 +51,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/venkat-data/work-spaces/workspaces-c-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 workspaces_c_cpp"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/venkat-data/work-spaces/workspaces-c-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 quiz-2"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/venkat-data/work-spaces/workspaces-c-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/venkat-data/work-spaces/workspaces-c-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/venkat-data/work-spaces/workspaces-c-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="workspaces_c_cpp/fast">
-				<Option output="/Volumes/venkat-data/work-spaces/workspaces-c-cpp/cmake-build-debug/workspaces_c_cpp" prefix_auto="0" extension_auto="0"/>
+			<Target title="quiz-2/fast">
+				<Option output="/Volumes/venkat-data/work-spaces/workspaces-c-cpp/cmake-build-debug/quiz-2" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Volumes/venkat-data/work-spaces/workspaces-c-cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -71,15 +71,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/venkat-data/work-spaces/workspaces-c-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 workspaces_c_cpp/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Volumes/venkat-data/work-spaces/workspaces-c-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 quiz-2/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Volumes/venkat-data/work-spaces/workspaces-c-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Volumes/venkat-data/work-spaces/workspaces-c-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Volumes/venkat-data/work-spaces/workspaces-c-cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Volumes/venkat-data/work-spaces/workspaces-c-cpp/main.c">
-			<Option target="workspaces_c_cpp"/>
+		<Unit filename="/Volumes/venkat-data/work-spaces/workspaces-c-cpp/recusrion/quiz-2.c">
+			<Option target="quiz-2"/>
 		</Unit>
 		<Unit filename="/Volumes/venkat-data/work-spaces/workspaces-c-cpp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

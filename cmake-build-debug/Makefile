@@ -131,44 +131,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named workspaces_c_cpp
+# Target rules for targets named quiz-2
 
 # Build rule for target.
-workspaces_c_cpp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 workspaces_c_cpp
-.PHONY : workspaces_c_cpp
+quiz-2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 quiz-2
+.PHONY : quiz-2
 
 # fast build rule for target.
-workspaces_c_cpp/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspaces_c_cpp.dir/build.make CMakeFiles/workspaces_c_cpp.dir/build
-.PHONY : workspaces_c_cpp/fast
+quiz-2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quiz-2.dir/build.make CMakeFiles/quiz-2.dir/build
+.PHONY : quiz-2/fast
 
-main.o: main.c.o
+recusrion/quiz-2.o: recusrion/quiz-2.c.o
 
-.PHONY : main.o
+.PHONY : recusrion/quiz-2.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspaces_c_cpp.dir/build.make CMakeFiles/workspaces_c_cpp.dir/main.c.o
-.PHONY : main.c.o
+recusrion/quiz-2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quiz-2.dir/build.make CMakeFiles/quiz-2.dir/recusrion/quiz-2.c.o
+.PHONY : recusrion/quiz-2.c.o
 
-main.i: main.c.i
+recusrion/quiz-2.i: recusrion/quiz-2.c.i
 
-.PHONY : main.i
+.PHONY : recusrion/quiz-2.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspaces_c_cpp.dir/build.make CMakeFiles/workspaces_c_cpp.dir/main.c.i
-.PHONY : main.c.i
+recusrion/quiz-2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quiz-2.dir/build.make CMakeFiles/quiz-2.dir/recusrion/quiz-2.c.i
+.PHONY : recusrion/quiz-2.c.i
 
-main.s: main.c.s
+recusrion/quiz-2.s: recusrion/quiz-2.c.s
 
-.PHONY : main.s
+.PHONY : recusrion/quiz-2.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspaces_c_cpp.dir/build.make CMakeFiles/workspaces_c_cpp.dir/main.c.s
-.PHONY : main.c.s
+recusrion/quiz-2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quiz-2.dir/build.make CMakeFiles/quiz-2.dir/recusrion/quiz-2.c.s
+.PHONY : recusrion/quiz-2.c.s
 
 # Help Target
 help:
@@ -178,10 +178,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... workspaces_c_cpp"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... quiz-2"
+	@echo "... recusrion/quiz-2.o"
+	@echo "... recusrion/quiz-2.i"
+	@echo "... recusrion/quiz-2.s"
 .PHONY : help
 
 

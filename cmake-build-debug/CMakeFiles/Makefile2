@@ -73,7 +73,7 @@ CMAKE_BINARY_DIR = /Volumes/venkat-data/work-spaces/workspaces-c-cpp/cmake-build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/workspaces_c_cpp.dir/all
+all: CMakeFiles/quiz-2.dir/all
 
 .PHONY : all
 
@@ -83,36 +83,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/workspaces_c_cpp.dir/clean
+clean: CMakeFiles/quiz-2.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/workspaces_c_cpp.dir
+# Target rules for target CMakeFiles/quiz-2.dir
 
 # All Build rule for target.
-CMakeFiles/workspaces_c_cpp.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspaces_c_cpp.dir/build.make CMakeFiles/workspaces_c_cpp.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspaces_c_cpp.dir/build.make CMakeFiles/workspaces_c_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Volumes/venkat-data/work-spaces/workspaces-c-cpp/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target workspaces_c_cpp"
-.PHONY : CMakeFiles/workspaces_c_cpp.dir/all
+CMakeFiles/quiz-2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quiz-2.dir/build.make CMakeFiles/quiz-2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quiz-2.dir/build.make CMakeFiles/quiz-2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Volumes/venkat-data/work-spaces/workspaces-c-cpp/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target quiz-2"
+.PHONY : CMakeFiles/quiz-2.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/workspaces_c_cpp.dir/rule: cmake_check_build_system
+CMakeFiles/quiz-2.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/venkat-data/work-spaces/workspaces-c-cpp/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/workspaces_c_cpp.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/quiz-2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/venkat-data/work-spaces/workspaces-c-cpp/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/workspaces_c_cpp.dir/rule
+.PHONY : CMakeFiles/quiz-2.dir/rule
 
 # Convenience name for target.
-workspaces_c_cpp: CMakeFiles/workspaces_c_cpp.dir/rule
+quiz-2: CMakeFiles/quiz-2.dir/rule
 
-.PHONY : workspaces_c_cpp
+.PHONY : quiz-2
 
 # clean rule for target.
-CMakeFiles/workspaces_c_cpp.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/workspaces_c_cpp.dir/build.make CMakeFiles/workspaces_c_cpp.dir/clean
-.PHONY : CMakeFiles/workspaces_c_cpp.dir/clean
+CMakeFiles/quiz-2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quiz-2.dir/build.make CMakeFiles/quiz-2.dir/clean
+.PHONY : CMakeFiles/quiz-2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
